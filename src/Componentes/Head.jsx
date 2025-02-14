@@ -28,10 +28,10 @@ const CloseMenu = () =>{
             <button onClick={CloseMenu}>x</button> 
             </div>
           <div className="Links">
-          <Link className="Link" to="/Paginainicial">Curiosidades</Link>
-          <Link className="Link" to="/Paginainicial">Curiosidades</Link>
-          <Link className="Link" to="/Paginainicial">Curiosidades</Link>
-          <Link className="Link" to="/Paginainicial">Curiosidades</Link>
+          <Link className="Link" to="/">Curiosidades</Link>
+          <Link className="Link" to="/">Curiosidades</Link>
+          <Link className="Link" to="/">Curiosidades</Link>
+          <Link className="Link" to="/">Curiosidades</Link>
           </div>
            </div>
 
