@@ -7,7 +7,7 @@ export default function Main(){
           <section>
 
              <div>
-                <h2>Conteúdo aqui</h2>
+                <h2>Página Inicial do blog aqui</h2>
              </div>
 
           </section>
