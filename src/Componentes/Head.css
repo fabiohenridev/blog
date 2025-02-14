@@ -29,3 +29,40 @@
     border: none;
     color: white;
 }
+
+.Categorias{
+    position: fixed;
+    background: rgb(32, 32, 32);
+    height: 100vh;
+    top: 0;
+    left: 0;
+
+}
+
+.Link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 16px;
+    font-family: "Poppins", serif;
+}
+
+.Links{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin-top: 50px;
+}
+
+.buttonClose{
+    border: 1px solid gray;
+}
+
+.buttonClose button{
+    position: relative;
+    float: right;
+    margin: 10px;
+    background: none;
+    border: none;
+    color: white;
+}
