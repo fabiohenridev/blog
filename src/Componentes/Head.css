@@ -57,9 +57,7 @@
     margin-top: 50px;
 }
 
-.buttonClose{
-    border: 1px solid gray;
-}
+
 
 .buttonClose button{
     position: relative;
@@ -68,4 +66,30 @@
     background: none;
     border: none;
     color: white;
+}
+
+.ImagemPerfil{
+    height: 200px;
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.268);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.268);
+}
+
+.ImagemPerfil img{
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 100px;
+
+}
+
+.ImagemPerfil h3{
+    color: white;
+    margin-top: 3px;
+    font-family: "Poppins", serif;
 }

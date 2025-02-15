@@ -27,6 +27,10 @@ const CloseMenu = () =>{
             <div className="buttonClose">
             <button onClick={CloseMenu}>x</button> 
             </div>
+            <div className="ImagemPerfil">
+            <img src="/Homer.jpg"></img>
+            <h3>O CURIOSO</h3>
+            </div>
           <div className="Links">
           <Link className="Link" to="/">Página Inicial</Link>
           <Link className="Link" to="/Curiosidade">Curiosidades</Link>
