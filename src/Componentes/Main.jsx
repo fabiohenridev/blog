@@ -1,17 +1,24 @@
 import "./Main.css";
+import { Link } from "react-router-dom";
 
-export default function Main(){
-    return(
-        <main className="Main">
+export default function Main() {
+  return (
+    <main className="Main">
+   
+    <div className="Inicio">
+      <Link className="LinkPost" to="/">
+        <section>
 
-          <section>
+          <div className="Post">
+            <img src="/photoaqui.png"></img>
+            <div className="TituloImg">
+              <p style={{ color: "gray" }}>OS TRÊS NOMES DE BEBÊS MAIS COMUNS EM 2025</p>
+            </div>
+          </div>
 
-             <div>
-                <h2>Página Inicial do blog aqui</h2>
-             </div>
-
-          </section>
-
-        </main>
-    )
+        </section>
+      </Link>
+      </div>
+    </main>
+  )
 }
