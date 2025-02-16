@@ -35,7 +35,7 @@ const CloseMenu = () =>{
           <div className="Links">
           <Link className="Link" to="/">Página Inicial</Link>
           <Link className="Link" to="/Curiosidade">Receitas</Link>
-          <Link className="Link" to="/">Políticas de privacidade</Link>
+          <Link className="Link" to="/Politica">Políticas de privacidade</Link>
           <Link className="Link" to="/">Sobre nós</Link>
          
           </div>
