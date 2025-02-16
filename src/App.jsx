@@ -5,6 +5,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import PaginaInicial from './Componentes/PaginaInicial';
 import Curiosidade from './Componentes/Curiosidades';
 import Politica from './Componentes/Politica';
+import Sobre from './Componentes/Sobre';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<PaginaInicial/>}/> 
         <Route path="/Curiosidade" element={<Curiosidade/>}/> 
         <Route path="/Politica" element={<Politica/>}/> 
+        <Route path="/Sobre" element={<Sobre/>}/> 
       </Routes>
     </BrowserRouter>
    </div>

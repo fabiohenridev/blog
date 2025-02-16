@@ -7,9 +7,9 @@ export default function Politica(){
         <div>
             <Head/>
             <main>
-                <section>
+                <section className="politica">
                    
-<h1>Política de Privacidade - Receita Viral</h1>
+<h1>Política de Privacidade - Delícia Viral</h1>
         
         <p>A sua privacidade é importante para nós. A Política de Privacidade a seguir descreve como o <strong>Delícia Viral</strong> coleta, utiliza e protege suas informações pessoais quando você visita e interage com o nosso site.</p>
         

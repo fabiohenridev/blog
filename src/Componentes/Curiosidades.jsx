@@ -10,16 +10,16 @@ export default function Curiosidade() {
         <>
             <Head />
             <main className="MainPosts">
-                <h1>OS MAIS VISTOS DA SEMANA</h1>
+                <h1>As mais vistas da semana</h1>
                 <div className="DivPrincipal">
                  
                     <Link className="LinkPost" to="/">
                     <section>
 
                         <div className="Post">
-                            <img src="/photoaqui.png"></img>
+                            <img src="/fotocomida.jpg"></img>
                             <div className="TituloImg">
-                                <p style={{ color: "gray" }}>OS TRÊS NOMES DE BEBÊS MAIS COMUNS EM 2025</p>
+                                <p style={{ color: "gray" }}>Confira já</p>
                             </div>
                         </div>
 
