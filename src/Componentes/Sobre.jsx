@@ -1,12 +1,12 @@
 import Footer from "./Footer";
 import Head from "./Head";
-import "./Sobre";
+import "./Sobre.css";
 
 export default function Sobre(){
     return(
         <div>
             <Head/>
-            <section>
+            <section className="Sobre">
             <h1>Sobre o Delícia Viral</h1>
         
         <p><strong>Delícia Viral</strong> é o seu destino ideal para descobrir receitas deliciosas, criativas e, claro, virais! Nosso objetivo é compartilhar com você as melhores e mais inovadoras receitas para tornar sua cozinha ainda mais saborosa e divertida.</p>
