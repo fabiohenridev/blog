@@ -19,7 +19,7 @@ const CloseMenu = () =>{
         <div>
          <header className="header">
             <div className="title">
-              <h1>O CURIOSO</h1>
+              <h1>Delícia Viral</h1>
             </div>
             {menu && (
 
@@ -29,12 +29,12 @@ const CloseMenu = () =>{
             <div className="buttonClose">
             <button onClick={CloseMenu}>x</button> 
             </div>
-            <img src="/Homer.jpg"></img>
-            <h3>O CURIOSO</h3>
+            <img src="/DeliciaVi.png"></img>
+            <h3>Delícia Viral</h3>
             </div>
           <div className="Links">
           <Link className="Link" to="/">Página Inicial</Link>
-          <Link className="Link" to="/Curiosidade">Curiosidades</Link>
+          <Link className="Link" to="/Curiosidade">Receitas</Link>
           <Link className="Link" to="/">Políticas de privacidade</Link>
           <Link className="Link" to="/">Sobre nós</Link>
          
