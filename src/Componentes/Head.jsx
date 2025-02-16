@@ -24,10 +24,11 @@ const CloseMenu = () =>{
             {menu && (
 
            <div className="Categorias">
+           
+            <div className="ImagemPerfil">
             <div className="buttonClose">
             <button onClick={CloseMenu}>x</button> 
             </div>
-            <div className="ImagemPerfil">
             <img src="/Homer.jpg"></img>
             <h3>O CURIOSO</h3>
             </div>

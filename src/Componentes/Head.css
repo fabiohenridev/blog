@@ -35,7 +35,7 @@
 
 .Categorias{
     position: fixed;
-    background: rgb(32, 32, 32);
+    background: rgba(32, 32, 32, 0.919);
     height: 100vh;
     top: 0;
     left: 0;
@@ -62,10 +62,11 @@
 .buttonClose button{
     position: relative;
     float: right;
-    margin: 10px;
     background: none;
     border: none;
     color: white;
+    margin-right: 13px;
+   
 }
 
 .ImagemPerfil{
@@ -92,4 +93,9 @@
     color: white;
     margin-top: 3px;
     font-family: "Poppins", serif;
+}
+
+.buttonClose{
+    width: 100%;
+    margin-bottom: 10px;
 }
