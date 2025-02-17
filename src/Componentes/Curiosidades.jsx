@@ -25,6 +25,19 @@ export default function Curiosidade() {
 
                     </section>
                     </Link>
+
+                    <Link className="LinkPost" to="/Receita2">
+                    <section>
+
+                        <div className="Post">
+                            <img src="/imgR2.jpg"></img>
+                            <div className="TituloImg">
+                                <p style={{ color: "gray" }}>Sopa de Abóbora com Gengibre</p>
+                            </div>
+                        </div>
+
+                    </section>
+                    </Link>
                 </div>
             </main>
             <Footer />
