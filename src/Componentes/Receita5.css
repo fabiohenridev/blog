@@ -1,0 +1,30 @@
+.Receita5{
+    display: flex;
+    margin: 30px;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgR5{
+    width: 300px;
+}
+
+.imgRe5 h1{
+
+text-align: center;
+margin: 10px;
+
+}
+
+.imgRe5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Receita5 h2{
+    margin-top: 20px;
+}
+

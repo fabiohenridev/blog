@@ -51,6 +51,32 @@ export default function Curiosidade() {
 
                     </section>
                     </Link>
+
+                    <Link className="LinkPost" to="/Receita4">
+                    <section>
+
+                        <div className="Post">
+                            <img src="/imgR4.jpg"></img>
+                            <div className="TituloImg">
+                                <p style={{ color: "gray" }}>Mousse de Chocolate</p>
+                            </div>
+                        </div>
+
+                    </section>
+                    </Link>
+
+                    <Link className="LinkPost" to="/Receita5">
+                    <section>
+
+                        <div className="Post">
+                            <img src="/imgR5.jpg"></img>
+                            <div className="TituloImg">
+                                <p style={{ color: "gray" }}>Pavê de Morango</p>
+                            </div>
+                        </div>
+
+                    </section>
+                    </Link>
                 </div>
             </main>
             <Footer />
