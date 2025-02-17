@@ -37,6 +37,7 @@ const CloseMenu = () =>{
           <Link className="Link" to="/Curiosidade">Receitas</Link>
           <Link className="Link" to="/Politica">Políticas de privacidade</Link>
           <Link className="Link" to="/Sobre">Sobre nós</Link>
+          <Link className="Link" to="https://www.instagram.com/deliciaviral/">Instagram</Link>
          
           </div>
            </div>
