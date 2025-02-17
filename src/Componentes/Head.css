@@ -6,7 +6,7 @@
     display: flex;
     height: 10vh;
     align-items: center;
-    background-color: #FC790D;
+    background-color: #FFD008;
     position: fixed;
     position: 0;
     left: 0%;
@@ -23,7 +23,7 @@
     flex: 85%;
     margin-left: 5%;
     font-family: "Poppins", serif;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .buttonHead{
@@ -36,7 +36,7 @@
     font-size: 30px;
     background: none;
     border: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .Categorias{
@@ -70,7 +70,7 @@
     float: right;
     background: none;
     border: none;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-right: 13px;
    
 }

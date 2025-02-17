@@ -29,7 +29,7 @@ const CloseMenu = () =>{
             <div className="buttonClose">
             <button onClick={CloseMenu}>x</button> 
             </div>
-            <img src="/DeliciaVi.png"></img>
+            <img src="/deliciaviral.png"></img>
             <h3>Delícia Viral</h3>
             </div>
           <div className="Links">
