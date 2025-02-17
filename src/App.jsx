@@ -8,6 +8,7 @@ import Politica from './Componentes/Politica';
 import Sobre from './Componentes/Sobre';
 import Receita1 from './Componentes/Receita1';
 import Receita2 from './Componentes/Receita2';
+import Receita3 from './Componentes/Receita3';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/Sobre" element={<Sobre/>}/> 
         <Route path="/Receita1" element={<Receita1/>}/> 
         <Route path="/Receita2" element={<Receita2/>}/> 
+        <Route path="/Receita3" element={<Receita3/>}/> 
       </Routes>
     </BrowserRouter>
    </div>

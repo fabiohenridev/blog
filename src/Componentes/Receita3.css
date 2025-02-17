@@ -1,0 +1,26 @@
+.Receita3{
+    display: flex;
+    margin: 30px;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgR3{
+    width: 300px;
+}
+
+.imgRe3 h1{
+
+text-align: center;
+margin: 10px;
+
+}
+
+.imgRe3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

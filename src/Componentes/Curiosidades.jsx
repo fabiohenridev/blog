@@ -38,6 +38,19 @@ export default function Curiosidade() {
 
                     </section>
                     </Link>
+
+                    <Link className="LinkPost" to="/Receita3">
+                    <section>
+
+                        <div className="Post">
+                            <img src="/imgR3.webp"></img>
+                            <div className="TituloImg">
+                                <p style={{ color: "gray" }}>Macarrão à Carbonara</p>
+                            </div>
+                        </div>
+
+                    </section>
+                    </Link>
                 </div>
             </main>
             <Footer />
