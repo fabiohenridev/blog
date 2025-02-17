@@ -4,6 +4,10 @@
     height: auto;
 }
 
+body{
+    margin-top: 150px;
+}
+
 section{
   
  position: relative;

@@ -6,6 +6,7 @@ import PaginaInicial from './Componentes/PaginaInicial';
 import Curiosidade from './Componentes/Curiosidades';
 import Politica from './Componentes/Politica';
 import Sobre from './Componentes/Sobre';
+import Receita1 from './Componentes/Receita1';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Curiosidade" element={<Curiosidade/>}/> 
         <Route path="/Politica" element={<Politica/>}/> 
         <Route path="/Sobre" element={<Sobre/>}/> 
+        <Route path="/Receita1" element={<Receita1/>}/> 
       </Routes>
     </BrowserRouter>
    </div>

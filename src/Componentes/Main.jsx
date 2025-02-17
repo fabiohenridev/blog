@@ -9,7 +9,7 @@ export default function Main() {
         <p>Confira as receitas mais deliciosas e virais da internet !</p>
       </div>
       <div className="Inicio">
-        <Link className="LinkPost" to="/">
+        <Link className="LinkPost" to="/Curiosidade">
           <section>
 
             <div className="Post">

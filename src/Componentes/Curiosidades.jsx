@@ -13,13 +13,13 @@ export default function Curiosidade() {
                 <h1>As mais vistas da semana</h1>
                 <div className="DivPrincipal">
                  
-                    <Link className="LinkPost" to="/">
+                    <Link className="LinkPost" to="/Receita1">
                     <section>
 
                         <div className="Post">
-                            <img src="/fotocomida.jpg"></img>
+                            <img src="/imgR1.jpeg"></img>
                             <div className="TituloImg">
-                                <p style={{ color: "gray" }}>Confira já</p>
+                                <p style={{ color: "gray" }}>Frango ao Curry Simples</p>
                             </div>
                         </div>
 
