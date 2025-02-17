@@ -1,4 +1,5 @@
 .Sobre{
+    gap: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
