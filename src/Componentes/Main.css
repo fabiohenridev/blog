@@ -33,3 +33,27 @@ section{
    justify-content: center;
  
 }
+
+.Anuncio{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 20px;
+}
+
+.Anuncio img{
+    width: 100%;
+}
+
+.Anuncio button{
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    top: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 10px;
+    border-radius: 50%;
+    font-size: 6px;
+}
