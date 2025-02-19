@@ -1,12 +1,18 @@
-.Receita1{
+.Receita7{
     display: flex;
     margin: 30px;
    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
-.imgR1{
+.Receita7 h1{
+    display: flex;
+    justify-content: center;
+}
+
+.imgR7{
     width: 300px;
 }
 

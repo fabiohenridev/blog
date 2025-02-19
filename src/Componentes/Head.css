@@ -45,14 +45,13 @@
     height: 100vh;
     top: 0;
     left: 0;
-
 }
 
 .Link{
     color: white;
     text-decoration: none;
     font-size: 20px;
-    padding: 14px 16px;
+    padding: 14px 8px;
     font-family: "Poppins", serif;
 }
 
@@ -104,4 +103,9 @@
 .buttonClose{
     width: 100%;
     margin-bottom: 10px;
+}
+
+.Icon{
+font-size: 25px;
+margin: 5px;
 }
