@@ -30,7 +30,7 @@ export default function Receita1() {
       <article className="Receita1">
         <header>
           <h1>Frango ao Curry Simples</h1>
-          <img className="imgR1" src="imgR1.jpeg" alt="Frango ao Curry" />
+          <img className="imgR1" src="imgR1.jpg" alt="Frango ao Curry" />
           <p><strong>Tempo de preparo:</strong> 30 minutos</p>
           <p><strong>Serve:</strong> 4 porções</p>
         </header>

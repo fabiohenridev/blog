@@ -29,7 +29,7 @@ export default function Receita8() {
       <article className="Receita8">
         <header>
           <h1>Pudim de Leite Condensado</h1>
-          <img className="imgR8" src="imgR8.jpeg" alt="Pudim de leite condensado" />
+          <img className="imgR8" src="imgR8.jpg" alt="Pudim de leite condensado" />
           <p><strong>Tempo de preparo:</strong> 20 minutos</p>
           <p><strong>Tempo de forno:</strong> 1 hora</p>
           <p><strong>Serve:</strong> 8 porções</p>
