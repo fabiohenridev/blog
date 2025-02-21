@@ -33,7 +33,7 @@ export default function Curiosidade() {
                     <Link className="LinkPost" to="/Receita1">
                         <section>
                             <div className="Post">
-                                <img src="/imgR1.jpeg" alt="Frango ao Curry Simples"></img>
+                                <img src="/imgR1.jpg" alt="Frango ao Curry Simples"></img>
                                 <div className="TituloImg">
                                     <p style={{ color: "gray" }}>Frango ao Curry Simples</p>
                                 </div>
@@ -110,7 +110,7 @@ export default function Curiosidade() {
                     <Link className="LinkPost" to="/Receita8">
                         <section>
                             <div className="Post">
-                                <img src="/imgR8.jpeg" alt="Pudim de Leite Condensado"></img>
+                                <img src="/imgR8.jpg" alt="Pudim de Leite Condensado"></img>
                                 <div className="TituloImg">
                                     <p style={{ color: "gray" }}>Pudim de Leite Condensado</p>
                                 </div>
