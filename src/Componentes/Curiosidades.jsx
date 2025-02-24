@@ -117,6 +117,16 @@ export default function Curiosidade() {
                             </div>
                         </section>
                     </Link>
+                    <Link className="LinkPost" to="/Receita9">
+                        <section>
+                            <div className="Post">
+                                <img src="/imgR9.jpg" alt="Panqueca de Banana"></img>
+                                <div className="TituloImg">
+                                    <p style={{ color: "gray" }}>Panqueca de Banana</p>
+                                </div>
+                            </div>
+                        </section>
+                    </Link>
                 </div>
 
                 {/* Exibe o anúncio somente se o estado 'showAd' for verdadeiro */}

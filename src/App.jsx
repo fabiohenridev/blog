@@ -14,6 +14,7 @@ import Receita5 from './Componentes/Receita5';
 import Receita6 from './Componentes/Receita6';
 import Receita7 from './Componentes/Receita7';
 import Receita8 from './Componentes/Receita8';
+import Receita9 from './Componentes/Receita9';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path="/Receita6" element={<Receita6/>}/> 
         <Route path="/Receita7" element={<Receita7/>}/> 
         <Route path="/Receita8" element={<Receita8/>}/> 
+        <Route path="/Receita9" element={<Receita9/>}/> 
       </Routes>
     </BrowserRouter>
    </div>
