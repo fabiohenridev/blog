@@ -17,7 +17,7 @@ export default function Receita8() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowAd(true); // Exibe o anúncio após 5 segundos
-    }, 5000);
+    }, 1000);
 
     // Limpeza do timer quando o componente for desmontado
     return () => clearTimeout(timer);
