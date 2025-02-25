@@ -10,7 +10,7 @@ export default function Receita9() {
   const receita = {
     titulo: "Panqueca de Banana",
     descricao: "Aprenda a fazer uma deliciosa panqueca de banana em apenas 10 minutos!",
-    imagem: "/imgR9.jpg", // Caminho relativo direto
+    imagem: "https://www.google.com/imgres?q=imagens&imgurl=https%3A%2F%2Fembratur.com.br%2Fwp-content%2Fuploads%2F2022%2F07%2FEmbratur-Brasil-ultrapassa-marca-de-1-milhao-de-turistas-estrangeiros-recebidos-pela-primeira-vez-desde-2020-1.png&imgrefurl=https%3A%2F%2Fembratur.com.br%2F2022%2F10%2F18%2Fprojeto-de-captacao-de-imagens-das-maravilhas-do-brasil-chega-ao-rio-e-a-sao-paulo%2F&docid=yNmekU6WAdEYDM&tbnid=-_6KyWNPFfAGiM&vet=12ahUKEwi7z-L4_d6LAxUNLLkGHUqIGWwQM3oECGYQAA..i&w=860&h=500&hcb=2&ved=2ahUKEwi7z-L4_d6LAxUNLLkGHUqIGWwQM3oECGYQAA", // Caminho relativo direto
     url: window.location.href, // URL da página atual
   };
 
