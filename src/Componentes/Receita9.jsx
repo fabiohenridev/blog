@@ -32,7 +32,7 @@ export default function Receita9() {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Panqueca de Banana" />
         <meta property="og:description" content="Aprenda a fazer uma deliciosa panqueca de banana em apenas 10 minutos!" />
-        <meta property="og:image" content="https://meusite.com/imgR9.jpg" />
+        <meta property="og:image" content="https://https://blog-lemon-eight-12.vercel.app//imgR9.jpg" />
         <meta property="og:url" content={window.location.href} />
       </Helmet>
 
