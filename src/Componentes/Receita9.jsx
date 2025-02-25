@@ -10,7 +10,7 @@ export default function Receita9() {
   const receita = {
     titulo: "Panqueca de Banana",
     descricao: "Aprenda a fazer uma deliciosa panqueca de banana em apenas 10 minutos!",
-    imagem: "https://blog-lemon-eight-12.vercel.app/Receita9/imgR9.jpg", // Certifique-se de que a URL esteja correta
+    imagem: "/imgR9.jpg", // Caminho relativo direto
     url: window.location.href, // URL da página atual
   };
 
