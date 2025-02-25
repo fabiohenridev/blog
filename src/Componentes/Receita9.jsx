@@ -2,10 +2,18 @@ import Footer from "./Footer";
 import Head from "./Head";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import "./Receita9.css";
-import { Helmet} from 'react-helmet';
 
 export default function Receita9() {
+  // Dados da receita (poderiam vir de uma API ou ser passados como props)
+  const receita = {
+    titulo: "Panqueca de Banana",
+    descricao: "Aprenda a fazer uma deliciosa panqueca de banana em apenas 10 minutos!",
+    imagem: "https://blog-lemon-eight-12.vercel.app/Receita9/imgR9.jpg", // Certifique-se de que a URL esteja correta
+    url: window.location.href, // URL da página atual
+  };
+
   // Estado para controlar a visibilidade do anúncio
   const [showAd, setShowAd] = useState(false);
 
@@ -28,18 +36,19 @@ export default function Receita9() {
     <div>
       <Head />
 
+      {/* Usando o Helmet para adicionar as meta tags Open Graph */}
       <Helmet>
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Panqueca de Banana" />
-        <meta property="og:description" content="Aprenda a fazer uma deliciosa panqueca de banana em apenas 10 minutos!" />
-        <meta property="og:image" content="https://https://blog-lemon-eight-12.vercel.app//imgR9.jpg" />
-        <meta property="og:url" content={window.location.href} />
+        <meta property="og:title" content={receita.titulo} />
+        <meta property="og:description" content={receita.descricao} />
+        <meta property="og:image" content={receita.imagem} />
+        <meta property="og:url" content={receita.url} />
       </Helmet>
 
       <article className="Receita9">
         <header className="imgRe9">
-          <h1>Panqueca de Banana</h1>
-          <img className="imgR9" src="imgR9.jpg" alt="Panqueca de Banana" />
+          <h1>{receita.titulo}</h1>
+          <img className="imgR9" src={receita.imagem} alt={receita.titulo} />
           <p><strong>Tempo de preparo:</strong> 10 minutos</p>
           <p><strong>Serve:</strong> 2 porções</p>
         </header>
@@ -89,6 +98,7 @@ export default function Receita9() {
           </div>
         )}
       </article>
+
       <Footer />
     </div>
   );
