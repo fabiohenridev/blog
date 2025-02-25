@@ -3,6 +3,7 @@ import Head from "./Head";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Receita9.css";
+import { Helmet} from 'react-helmet';
 
 export default function Receita9() {
   // Estado para controlar a visibilidade do anúncio
@@ -26,6 +27,15 @@ export default function Receita9() {
   return (
     <div>
       <Head />
+
+      <Helmet>
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Panqueca de Banana" />
+        <meta property="og:description" content="Aprenda a fazer uma deliciosa panqueca de banana em apenas 10 minutos!" />
+        <meta property="og:image" content="https://meusite.com/imgR9.jpg" />
+        <meta property="og:url" content={window.location.href} />
+      </Helmet>
+
       <article className="Receita9">
         <header className="imgRe9">
           <h1>Panqueca de Banana</h1>

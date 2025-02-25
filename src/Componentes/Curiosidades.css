@@ -1,5 +1,4 @@
 .MainPosts{
-    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -17,7 +16,6 @@
 
 .DivPrincipal{
     margin: 10px;
-    
 }
 
 
