@@ -6,8 +6,6 @@ import "./Receita9.css";
 
 export default function Receita9() {
   // Estado para controlar a visibilidade do anúncio
-
-
   
   const [showAd, setShowAd] = useState(false);
 
