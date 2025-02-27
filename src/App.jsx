@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'; 
+import React, { useEffect, useState } from 'react';
 import './App.css';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'; // Importação de useLocation
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import PaginaInicial from './Componentes/PaginaInicial';
 import Curiosidade from './Componentes/Curiosidades';
 import Politica from './Componentes/Politica';
@@ -15,17 +15,19 @@ import Receita7 from './Componentes/Receita7';
 import Receita8 from './Componentes/Receita8';
 import Receita9 from './Componentes/Receita9';
 
+// UseBrowserRouter para garantir o contexto correto
+import { useLocation } from 'react-router-dom';
+
 function App() {
   const [count, setCount] = useState(0);
-
-  const location = useLocation(); // Captura a localização atual para monitorar mudanças de rota
+  const location = useLocation(); // Acessando o hook dentro do contexto Router
 
   useEffect(() => {
-    // Verifica se o Adquake está disponível e reinicia os anúncios sempre que a localização mudar
+    // Verifica se o Adquake está disponível e reinicia
     if (window.adquake) {
       window.adquake.restart();
     }
-  }, [location]); // A dependência de "location" vai disparar o efeito sempre que a rota mudar
+  }, [location]); // Certifique-se de adicionar 'location' como dependência aqui
 
   return (
     <div>
