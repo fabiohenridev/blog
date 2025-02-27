@@ -77,7 +77,7 @@ export default function Receita9() {
             <button onClick={handleCloseAd}>X</button>
 
             {/* Link de redirecionamento */}
-            <Link to="https://www.effectiveratecpm.com/wicjgm1jx?key=6c6b3492d9b21f04246b8e4ad4002877">
+            <Link to="https://theeghumoaps.com/4/8945434">
               <img src="EbookGratis.png" alt="Ebook Grátis" />
             </Link>
           </div>
