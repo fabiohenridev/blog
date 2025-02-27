@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 import "./Receita1.css";
 
 export default function Receita1() {
+
+
+  
   // Estado para controlar a visibilidade do anúncio
   const [showAd, setShowAd] = useState(false);
 

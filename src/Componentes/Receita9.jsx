@@ -26,6 +26,9 @@ export default function Receita9() {
     return () => clearTimeout(timer);
   }, []); // O empty array [] faz com que o useEffect execute apenas uma vez na montagem inicial
 
+ 
+
+
   return (
     <div>
       <Head />
