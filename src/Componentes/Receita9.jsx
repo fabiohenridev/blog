@@ -76,18 +76,7 @@ export default function Receita9() {
           </ul>
         </section>
 
-        {/* Exibe o anúncio somente se o estado 'showAd' for verdadeiro */}
-        {showAd && (
-          <div className="Anuncio">
-            {/* Botão "X" para fechar o anúncio */}
-            <button onClick={handleCloseAd}>X</button>
-
-            {/* Link de redirecionamento */}
-            <Link to="https://theeghumoaps.com/4/8945434">
-              <img src="EbookGratis.png" alt="Ebook Grátis" />
-            </Link>
-          </div>
-        )}
+     
       </article>
       <Footer />
     </div>

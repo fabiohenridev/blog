@@ -66,18 +66,8 @@ export default function Receita1() {
           </ol>
         </section>
 
-        {/* Exibe o anúncio somente se o estado 'showAd' for verdadeiro */}
-        {showAd && (
-          <div className="Anuncio">
-            {/* Botão "X" para fechar o anúncio */}
-            <button onClick={handleCloseAd}>X</button>
-
-            {/* Link de redirecionamento */}
-            <Link to="https://theeghumoaps.com/4/8945434">
-              <img src="EbookGratis.png" alt="Ebook Grátis" />
-            </Link>
-          </div>
-        )}
+       {/* Exibe o anúncio somente se o estado 'showAd' for verdadeiro */}
+       
 
         <h2 style={{ marginTop: "20px" }}>Dicas:</h2>
         <section>
