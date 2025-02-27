@@ -1,51 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.Main{
+.Main {
     height: auto;
 }
 
-body{
+body {
     margin-top: 150px;
 }
 
-section{
-  
- position: relative;
- top: 40px;
- z-index: -1;
+section {
+
+    position: relative;
+    top: 40px;
+    z-index: -1;
 }
 
-.HeaderInicio{
+.HeaderInicio {
     margin: 30px;
     display: flex;
     justify-content: center;
 }
 
-.HeaderInicio p{
+.HeaderInicio p {
     font-family: "Poppins", serif;
     font-size: 35px;
     color: rgb(17, 17, 17);
 }
 
-.txth3{
+.txth3 {
     margin: 30px 80px 30px 30px;
-   display: flex;
-   justify-content: center;
- 
+    display: flex;
+    justify-content: center;
+
 }
 
-.Anuncio{
+.Anuncio {
     position: fixed;
     left: 0;
     width: 100%;
     top: 20px;
 }
 
-.Anuncio img{
+.Anuncio img {
     width: 100%;
 }
 
-.Anuncio button{
+.Anuncio button {
     position: relative;
     float: right;
     margin-right: 30px;
@@ -57,4 +57,3 @@ section{
     border-radius: 50%;
     font-size: 6px;
 }
-

@@ -1,30 +1,29 @@
-.Receita4{
+.Receita4 {
     display: flex;
     margin: 30px;
-   flex-direction: column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.imgR4{
+.imgR4 {
     width: 300px;
 }
 
-.imgRe4 h1{
+.imgRe4 h1 {
 
-text-align: center;
-margin: 10px;
+    text-align: center;
+    margin: 10px;
 
 }
 
-.imgRe4{
+.imgRe4 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.Receita4 h2{
+.Receita4 h2 {
     margin-top: 20px;
 }
-

@@ -47,18 +47,18 @@ export default function Receita3() {
             <li>Salsinha picada para decorar (opcional)</li>
           </ul>
         </section>
-   {/* Exibe o anúncio somente se o estado 'showAd' for verdadeiro */}
-   {showAd && (
-            <div className="Anuncio">
-              {/* Botão "X" para fechar o anúncio */}
-              <button onClick={handleCloseAd}>X</button>
+        {/* Exibe o anúncio somente se o estado 'showAd' for verdadeiro */}
+        {showAd && (
+          <div className="Anuncio">
+            {/* Botão "X" para fechar o anúncio */}
+            <button onClick={handleCloseAd}>X</button>
 
-              {/* Link de redirecionamento */}
-              <Link to="https://theeghumoaps.com/4/8945434">
-                <img src="EbookGratis.png" alt="Ebook Grátis" />
-              </Link>
-            </div>
-          )}
+            {/* Link de redirecionamento */}
+            <Link to="https://theeghumoaps.com/4/8945434">
+              <img src="EbookGratis.png" alt="Ebook Grátis" />
+            </Link>
+          </div>
+        )}
         <h2>Modo de Preparo:</h2>
         <section>
           <ol>
@@ -79,7 +79,7 @@ export default function Receita3() {
             <li>Essa receita é super rápida, então, é bom ter todos os ingredientes prontos antes de começar o preparo.</li>
           </ul>
         </section>
-      </article>   
+      </article>
       <Footer />
     </div>
   );

@@ -1,59 +1,59 @@
-.Receita9{
-    display: flex;
-    margin: 30px;
-   flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+.Receita9 {
+  display: flex;
+  margin: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
-.Receita9 h1{
-    text-align: center;
+.Receita9 h1 {
+  text-align: center;
 }
 
-.imgR9{
-    width: 300px;
+.imgR9 {
+  width: 300px;
 }
 
 
 /* Estilo para o anúncio */
 .Anuncio {
-    position: fixed;
-    top: 300px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #f8f8f8;
-    padding: 10px;
-    border-radius: 3px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 9999;
-    width: 300px; /* Ajuste o tamanho do anúncio se necessário */
-    text-align: center;
-  }
-  
-  .Anuncio button {
-    position: absolute;
-    top: 35px;
-    right: 5px;
-    background-color: black;
-    border: none;
-    font-size: 5px;
-    cursor: pointer;
-    color: rgb(255, 255, 255);
-  }
-  
-  .Anuncio img {
-    width: 100%;
-    border-radius: 8px;
-    margin-top: 10px;
-    cursor: pointer;
-  }
-  
-  .Anuncio a {
-    text-decoration: none;
-  }
+  position: fixed;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  width: 300px;
+  /* Ajuste o tamanho do anúncio se necessário */
+  text-align: center;
+}
 
-  .imgR9{
-    border-radius: 8px;
-  }
-  
+.Anuncio button {
+  position: absolute;
+  top: 35px;
+  right: 5px;
+  background-color: black;
+  border: none;
+  font-size: 5px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.Anuncio img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.Anuncio a {
+  text-decoration: none;
+}
+
+.imgR9 {
+  border-radius: 8px;
+}
