@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'; // Corrigido: Adicionei a importação do useEffect
+import React, { useEffect, useState } from 'react'; 
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'; // Importação de useLocation
 import PaginaInicial from './Componentes/PaginaInicial';
 import Curiosidade from './Componentes/Curiosidades';
 import Politica from './Componentes/Politica';
@@ -18,12 +18,14 @@ import Receita9 from './Componentes/Receita9';
 function App() {
   const [count, setCount] = useState(0);
 
+  const location = useLocation(); // Captura a localização atual para monitorar mudanças de rota
+
   useEffect(() => {
-    // Verifica se o Adquake está disponível e chama a reinicialização
+    // Verifica se o Adquake está disponível e reinicia os anúncios sempre que a localização mudar
     if (window.adquake) {
       window.adquake.restart();
     }
-  }, []); // Dependência vazia para executar apenas na montagem inicial
+  }, [location]); // A dependência de "location" vai disparar o efeito sempre que a rota mudar
 
   return (
     <div>
