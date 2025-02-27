@@ -28,26 +28,28 @@ export default function Receita2() {
       <Head />
       <article className="Receita2">
         <header className="imgRe2">
-          <h1>Sopa de Abóbora com Gengibre</h1>
-          <img className="imgR2" src="imgR2.jpg" alt="Sopa de Abóbora" />
+          <h1>Fricassê de Frango</h1>
+          <img className="imgR2" src="imgR2.jpg" alt="Fricassê de Frango" />
           <p><strong>Tempo de preparo:</strong> 40 minutos</p>
           <p><strong>Serve:</strong> 4 porções</p>
         </header>
 
         <h2 style={{ marginTop: "20px" }}>Ingredientes:</h2>
         <section>
-
-
           <ul>
-            <li>500g de abóbora descascada e cortada em cubos</li>
-            <li>1 cebola média picada</li>
-            <li>2 dentes de alho picados</li>
-            <li>1 colher de sopa de gengibre fresco ralado</li>
-            <li>1 colher de sopa de azeite de oliva</li>
-            <li>500ml de caldo de legumes ou de galinha</li>
-            <li>Sal e pimenta-do-reino a gosto</li>
-            <li>1 colher de sopa de creme de leite (opcional, para finalizar)</li>
-            <li>Folhas de hortelã para decorar (opcional)</li>
+            <li>1kg de frango</li>
+            <li>Sal a gosto</li>
+            <li>Lemon pepper a gosto</li>
+            <li>Páprica doce a gosto</li>
+            <li>Orégano a gosto</li>
+            <li>Pimenta do reino a gosto</li>
+            <li>Alho a gosto</li>
+            <li>2 latinhas de milho</li>
+            <li>180g de requeijão</li>
+            <li>180g de leite</li>
+            <li>1 caixinha de leite</li>
+            <li>150g de molho de tomate</li>
+            <li>Queijo mussarela a gosto</li>
           </ul>
         </section>
 
@@ -67,21 +69,20 @@ export default function Receita2() {
         <h2 style={{ marginTop: "20px" }}>Modo de Preparo:</h2>
         <section>
           <ol>
-            <li>Em uma panela grande, aqueça o azeite de oliva em fogo médio.</li>
-            <li>Adicione a cebola e o alho e refogue até ficarem dourados e macios.</li>
-            <li>Acrescente a abóbora e o gengibre ralado, mexa bem e cozinhe por alguns minutos.</li>
-            <li>Despeje o caldo de legumes ou de galinha e leve a sopa para ferver. Reduza o fogo e cozinhe por cerca de 20 minutos, ou até que a abóbora esteja bem macia.</li>
-            <li>Com um mixer ou no liquidificador, bata a sopa até obter um creme liso e homogêneo.</li>
-            <li>Tempere com sal e pimenta-do-reino a gosto. Se quiser, adicione o creme de leite para um toque mais cremoso.</li>
-            <li>Sirva quente, decorando com folhas de hortelã, se desejar.</li>
+            <li>Tempere o frango com sal, lemon pepper, páprica doce, orégano, pimenta do reino e alho.</li>
+            <li>Em uma panela grande, refogue o frango temperado até dourar bem dos dois lados.</li>
+            <li>Adicione as latinhas de milho, o requeijão, o leite e o molho de tomate. Mexa bem para combinar.</li>
+            <li>Cozinhe em fogo baixo até que o frango esteja completamente cozido e o molho tenha engrossado.</li>
+            <li>Finalize com o queijo mussarela por cima e deixe derreter.</li>
+            <li>Sirva quente, acompanhado de arroz ou salada, se preferir.</li>
           </ol>
         </section>
 
         <h2 style={{ marginTop: "20px" }}>Dicas:</h2>
         <section>
           <ul>
-            <li>Se preferir, você pode adicionar um pouco de leite de coco para uma versão mais cremosa e com sabor suave.</li>
-            <li>Essa sopa combina muito bem com pães crocantes ou torradas para acompanhar.</li>
+            <li>Você pode substituir o frango por peito de frango desfiado para uma versão mais prática.</li>
+            <li>Se quiser, adicione um pouco de cream cheese para um molho mais cremoso.</li>
           </ul>
         </section>
       </article>

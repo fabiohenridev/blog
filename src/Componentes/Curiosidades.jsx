@@ -46,7 +46,7 @@ export default function Curiosidade() {
                             <div className="Post">
                                 <img src="/imgR2.jpg" alt="Sopa de Abóbora com Gengibre"></img>
                                 <div className="TituloImg">
-                                    <p style={{ color: "gray" }}>Sopa de Abóbora com Gengibre</p>
+                                    <p style={{ color: "gray" }}>Fricassê de Frango</p>
                                 </div>
                             </div>
                         </section>
