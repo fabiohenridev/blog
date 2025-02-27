@@ -15,22 +15,22 @@ import Receita7 from './Componentes/Receita7';
 import Receita8 from './Componentes/Receita8';
 import Receita9 from './Componentes/Receita9';
 
-// UseBrowserRouter para garantir o contexto correto
 import { useLocation } from 'react-router-dom';
 
 function App() {
   const [count, setCount] = useState(0);
-  const location = useLocation(); // Acessando o hook dentro do contexto Router
+  const location = useLocation(); // Aqui usamos o hook corretamente
 
   useEffect(() => {
-    // Verifica se o Adquake está disponível e reinicia
+    // Verifica se o Adquake está disponível e chama a reinicialização
     if (window.adquake) {
       window.adquake.restart();
     }
-  }, [location]); // Certifique-se de adicionar 'location' como dependência aqui
+  }, [location]); // Recarrega o anúncio quando a localização mudar
 
   return (
     <div>
+      {/* O BrowserRouter envolve todo o conteúdo */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<PaginaInicial />} />
