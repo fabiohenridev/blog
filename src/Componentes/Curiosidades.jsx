@@ -120,9 +120,9 @@ export default function Curiosidade() {
                     <Link className="LinkPost" to="/Receita9">
                         <section>
                             <div className="Post">
-                                <img src="/imgR9.jpg" alt="Panqueca de Banana"></img>
+                                <img src="/imgR9.png" alt="Panqueca de Banana"></img>
                                 <div className="TituloImg">
-                                    <p style={{ color: "gray" }}>Panqueca de Banana</p>
+                                    <p style={{ color: "gray" }}>Sanduíche de Presunto e Queijo</p>
                                 </div>
                             </div>
                         </section>

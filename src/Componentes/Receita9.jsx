@@ -28,41 +28,45 @@ export default function Receita9() {
       <Head />
       <article className="Receita9">
         <header className="imgRe9">
-          <h1>Panqueca de Banana</h1>
-          <img className="imgR9" src="imgR9.jpg" alt="Panqueca de Banana" />
-          <p><strong>Tempo de preparo:</strong> 10 minutos</p>
+          <h1>Sanduíche de Presunto e Queijo</h1>
+          <img className="imgR9" src="imgR9.png" alt="Sanduíche de Presunto e Queijo" />
+          <p><strong>Tempo de preparo:</strong> 15 minutos</p>
           <p><strong>Serve:</strong> 2 porções</p>
         </header>
 
         <h2>Ingredientes:</h2>
         <section>
           <ul>
-            <li>2 bananas maduras amassadas</li>
-            <li>2 ovos</li>
-            <li>1 colher de chá de essência de baunilha</li>
-            <li>1/2 xícara de aveia em flocos finos</li>
-            <li>1 colher de chá de canela (opcional)</li>
-            <li>1 colher de sopa de óleo de coco (ou manteiga)</li>
+            <li>Presunto (quantidade a gosto)</li>
+            <li>Queijo (pode ser muçarela ou outro de sua preferência)</li>
+            <li>Tomate fatiado</li>
+            <li>Orégano a gosto</li>
+            <li>200g de requeijão cremoso</li>
+            <li>6 pães (pode ser pão de forma ou outro tipo)</li>
+            <li>Manteiga (para untar)</li>
           </ul>
         </section>
 
         <h2>Modo de Preparo:</h2>
         <section>
           <ol>
-            <li>Em uma tigela, amasse as bananas e adicione os ovos, a essência de baunilha e a canela. Misture bem.</li>
-            <li>Adicione a aveia e misture até que a massa fique homogênea.</li>
-            <li>Aqueça uma frigideira antiaderente com o óleo de coco em fogo médio.</li>
-            <li>Coloque pequenas porções da massa na frigideira, formando panquecas pequenas.</li>
-            <li>Cozinhe por cerca de 2-3 minutos de cada lado, até que fiquem douradas e firmes.</li>
-            <li>Sirva as panquecas com mel, frutas ou iogurte, conforme desejar.</li>
+            <li>Preaqueça o forno a 180°C.</li>
+            <li>Unte os pães com um pouco de manteiga em um lado de cada fatia.</li>
+            <li>Em cada fatia de pão, passe uma camada de requeijão cremoso.</li>
+            <li>Coloque uma fatia de presunto, seguida de uma fatia de queijo.</li>
+            <li>Adicione uma ou duas fatias de tomate.</li>
+            <li>Polvilhe orégano a gosto.</li>
+            <li>Feche os sanduíches com outra fatia de pão.</li>
+            <li>Coloque os sanduíches montados em uma assadeira e leve ao forno por cerca de 15 minutos ou até o queijo derreter e o pão ficar dourado.</li>
+            <li>Retire do forno, corte e sirva.</li>
           </ol>
         </section>
 
         <h2>Dicas:</h2>
         <section>
           <ul>
-            <li>Se preferir, substitua a aveia por farinha de amêndoas para uma versão sem glúten.</li>
-            <li>Adicione pedaços de chocolate meio amargo na massa para um toque extra de sabor!</li>
+            <li>Você pode adicionar maionese ou azeite no pão para dar um toque extra de sabor.</li>
+            <li>Se preferir, pode usar pão integral para uma versão mais saudável.</li>
           </ul>
         </section>
 
