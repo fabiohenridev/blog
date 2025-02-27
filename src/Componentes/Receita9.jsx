@@ -6,6 +6,15 @@ import "./Receita9.css";
 
 export default function Receita9() {
   // Estado para controlar a visibilidade do anúncio
+
+  useEffect(() => {
+    // Verifica se o Adquake está disponível e chama a reinicialização
+    if (window.adquake) {
+      window.adquake.restart();
+    }
+  }, []); // Dependência vazia para executar apenas na montagem inicial
+
+
   const [showAd, setShowAd] = useState(false);
 
   // Função para lidar com o clique no botão de fechar
