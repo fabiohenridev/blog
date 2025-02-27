@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Receita1.css";
 
-
 export default function Receita1() {
   // Estado para controlar a visibilidade do anúncio
   const [showAd, setShowAd] = useState(false);
@@ -29,59 +28,59 @@ export default function Receita1() {
       <Head />
       <article className="Receita1">
         <header>
-          <h1>Frango ao Curry Simples</h1>
-          <img className="imgR1" src="imgR1.jpg" alt="Frango ao Curry" />
-          <p><strong>Tempo de preparo:</strong> 30 minutos</p>
+          <h1>Panqueca de Maisena</h1>
+          <img className="imgR1" src="imgR1.jpg" alt="Panqueca de Maisena" />
+          <p><strong>Tempo de preparo:</strong> 15 minutos</p>
           <p><strong>Serve:</strong> 4 porções</p>
         </header>
 
         <h2 style={{ marginTop: "20px" }}>Ingredientes:</h2>
         <section>
-
           <ul>
-
-            <li>500g de peito de frango cortado em cubos</li>
-            <li>1 cebola picada</li>
-            <li>2 dentes de alho picados</li>
-            <li>1 colher de sopa de curry em pó</li>
-            <li>1 colher de chá de sal (ou a gosto)</li>
-            <li>1 colher de sopa de azeite</li>
-            <li>200ml de leite de coco</li>
-            <li>1 pimentão vermelho cortado em tiras (opcional)</li>
-            <li>Cheiro-verde a gosto</li>
-            <li>Arroz branco para acompanhar</li>
+            <li>1 ovo</li>
+            <li>1 pitada de sal</li>
+            <li>1 xícara de amido de milho</li>
+            <li>1 xícara de leite</li>
+            <li>1 colher de sopa de manteiga</li>
+            <li>Recheio de carne moída temperada</li>
+            <li>Molho de tomate</li>
+            <li>Queijo muçarela fatiado</li>
+            <li>Orégano a gosto</li>
           </ul>
         </section>
 
-          {/* Exibe o anúncio somente se o estado 'showAd' for verdadeiro */}
-   {showAd && (
-            <div className="Anuncio">
-              {/* Botão "X" para fechar o anúncio */}
-              <button onClick={handleCloseAd}>X</button>
-
-              {/* Link de redirecionamento */}
-              <Link to="https://theeghumoaps.com/4/8945434">
-                <img src="EbookGratis.png" alt="Ebook Grátis" />
-              </Link>
-            </div>
-          )}
         <h2 style={{ marginTop: "20px" }}>Modo de Preparo:</h2>
         <section>
           <ol>
-            <li>Em uma panela grande, aqueça o azeite em fogo médio.</li>
-            <li>Adicione a cebola e o alho e refogue até que fiquem dourados.</li>
-            <li>Acrescente os cubos de frango e cozinhe até que fiquem dourados por todos os lados.</li>
-            <li>Adicione o curry em pó e o sal, mexendo bem para que o frango fique bem temperado.</li>
-            <li>Despeje o leite de coco e misture. Cozinhe por mais 10 minutos, até o molho engrossar.</li>
-            <li>Se desejar, adicione o pimentão e deixe cozinhar por mais 5 minutos.</li>
-            <li>Finalize com cheiro-verde picado e sirva com arroz branco.</li>
+            <li>Preaqueça o forno a 180°C.</li>
+            <li>Em uma tigela, bata o ovo com o sal e a manteiga até formar uma mistura homogênea.</li>
+            <li>Adicione o amido de milho e o leite à mistura, mexendo bem até formar uma massa firme.</li>
+            <li>Abra a massa em uma superfície enfarinhada, formando uma base para a panqueca.</li>
+            <li>Coloque a carne moída temperada sobre a base da massa.</li>
+            <li>Adicione molho de tomate por cima da carne e distribua as fatias de queijo muçarela.</li>
+            <li>Finalize com orégano a gosto.</li>
+            <li>Leve ao forno por 15 minutos ou até a massa estar dourada e o queijo derretido.</li>
           </ol>
         </section>
+
+        {/* Exibe o anúncio somente se o estado 'showAd' for verdadeiro */}
+        {showAd && (
+          <div className="Anuncio">
+            {/* Botão "X" para fechar o anúncio */}
+            <button onClick={handleCloseAd}>X</button>
+
+            {/* Link de redirecionamento */}
+            <Link to="https://theeghumoaps.com/4/8945434">
+              <img src="EbookGratis.png" alt="Ebook Grátis" />
+            </Link>
+          </div>
+        )}
+
         <h2 style={{ marginTop: "20px" }}>Dicas:</h2>
         <section>
           <ul>
-            <li>Se preferir um molho mais picante, adicione pimenta a gosto.</li>
-            <li>Você pode substituir o frango por carne de porco ou carne de vaca, se preferir.</li>
+            <li>Se preferir, você pode substituir o recheio de carne moída por frango desfiado.</li>
+            <li>Sirva com uma salada fresca para acompanhar.</li>
           </ul>
         </section>
       </article>
