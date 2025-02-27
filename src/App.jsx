@@ -20,6 +20,13 @@ import Receita9 from './Componentes/Receita9';
 function App() {
   const [count, setCount] = useState(0)
 
+  useEffect(() => {
+    // Verifica se o Adquake está disponível e chama a reinicialização
+    if (window.adquake) {
+      window.adquake.restart();
+    }
+  }, []); // Dependência vazia para executar apenas na montagem inicial
+
   return (
    <div>
       <BrowserRouter>
